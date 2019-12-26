@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark"
+        android:padding="15dp"
+        android:gravity="center">
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:background="@android:color/holo_blue_light"
+             android:textColor="@android:color/white"
+             android:textSize="20sp"
+             android:textAlignment="center"
+             android:layout_margin="10dp"
+             android:id="@+id/question_text"/>
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioGroup"
+            android:background="@color/colorPrimary"
+
+            android:orientation="vertical"
+            android:layout_gravity="start">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/one"
+                android:textColor="@color/colorAccent"/>
+
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/two"
+                android:textColor="@color/colorAccent"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/three"
+                android:textColor="@color/colorAccent"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/four"
+                android:textColor="@color/colorAccent"/>
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

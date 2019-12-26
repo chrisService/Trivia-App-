@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreference
+
+        android:id="@+id/remindSwitch"
+        android:defaultValue="true"
+        android:title="Remind me to play Trivia"
+        android:key="switch"
+        app:defaultValue="true"
+        android:summary="once a day show notification about the app">
+        
+    </SwitchPreference>
+
+</PreferenceScreen>
